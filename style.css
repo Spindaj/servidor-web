@@ -1,0 +1,30 @@
+body, ul, p, li{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+}
+
+.topo{
+    display: flex;
+    background: black;  
+    align-items: center;
+}
+
+img{
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+a{
+    color: white;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
